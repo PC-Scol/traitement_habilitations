@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="onglet_traitements" prompt="onglet_traitements?" promptNeeded="false" type="id_String" value="traitements_v2.0"/>
+  <contextParameter comment="" name="fichier" prompt="fichier?" promptNeeded="false" type="id_String" value="&quot;D:/temp/habilitations_v2.0.xlsx&quot;"/>
+</talendfile:ContextType>

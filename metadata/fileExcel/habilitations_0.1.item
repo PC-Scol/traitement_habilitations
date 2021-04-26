@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_lvulUJO1EeuSRbXcudBTAg" name="habilitations" dataPackage="_lvxooJO1EeuSRbXcudBTAg _334dgJO1EeuSRbXcudBTAg _DIX6UJO2EeuSRbXcudBTAg _d5kr8JO2EeuSRbXcudBTAg _xf1O8JO4EeuSRbXcudBTAg _5QyCwJO4EeuSRbXcudBTAg __JZnUJhrEeu-UtIsWI2hLg" Server="Localhost 127.0.0.1" FilePath="C:/Users/awillaum.PCP-DSI-22/Desktop/PC-SCOL/habilitations_1.3_true.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="2" FirstLineCaption="true" SheetName="utilisateurs" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="utilisateurs:w&#xA;traitements_V1.1:w&#xA;roles:w&#xA;habilitations:w&#xA;permissions_tableau:w&#xA;permissions:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lvxooJO1EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lvxooZO1EeuSRbXcudBTAg" id="_3gts8JOwEeuSRbXcudBTAg" label="utilisateurs">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lvxoopO1EeuSRbXcudBTAg" label="identifiantUtilisateur" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lvxoo5O1EeuSRbXcudBTAg" label="sourceUtilisateur" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lvxopJO1EeuSRbXcudBTAg" label="dateDebutUtilisateur" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lvxopZO1EeuSRbXcudBTAg" label="dateFinUtilisateur" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lvxoppO1EeuSRbXcudBTAg" label="typeUtilisateur" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_334dgJO1EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_334dgZO1EeuSRbXcudBTAg" id="_m-1cwJO1EeuSRbXcudBTAg" label="roles">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_334dgpO1EeuSRbXcudBTAg" label="codeRole" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_334dg5O1EeuSRbXcudBTAg" label="libelleRole" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_334dhJO1EeuSRbXcudBTAg" label="descriptionRole" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_334dhZO1EeuSRbXcudBTAg" label="dateDebutRole" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_334dhpO1EeuSRbXcudBTAg" label="dateFinRole" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DIX6UJO2EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DIX6UZO2EeuSRbXcudBTAg" id="_4UbPkJO1EeuSRbXcudBTAg" label="habilitations">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6UpO2EeuSRbXcudBTAg" label="utilisateur__identifiantUtilisateur" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6U5O2EeuSRbXcudBTAg" label="utilisateur__sourceUtilisateur" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6VJO2EeuSRbXcudBTAg" label="codeRole" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6VZO2EeuSRbXcudBTAg" label="codeStructure" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6VpO2EeuSRbXcudBTAg" label="dateDebutHabilitation" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DIX6V5O2EeuSRbXcudBTAg" name="dateFinHabilitation" label="dateFinHabilitation" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_d5kr8JO2EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d5kr8ZO2EeuSRbXcudBTAg" id="_XlzAwJO2EeuSRbXcudBTAg" label="traitements_V1.1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d5kr8pO2EeuSRbXcudBTAg" label="codeTraitement" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d5kr85O2EeuSRbXcudBTAg" label="description" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xf1O8JO4EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xf1O8ZO4EeuSRbXcudBTAg" id="_eS38wJO2EeuSRbXcudBTAg" label="permissions_tableau">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sU48EJhCEeuaNKo1zCSbPQ" label="codeTraitement" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sU48EZhCEeuaNKo1zCSbPQ" label="roleB" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sU48EphCEeuaNKo1zCSbPQ" label="roleC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sU48E5hCEeuaNKo1zCSbPQ" label="roleD" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sU48FJhCEeuaNKo1zCSbPQ" label="roleE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5ZBgwJhCEeuaNKo1zCSbPQ" name="roleF" label="roleF" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6UhfsJhCEeuaNKo1zCSbPQ" name="roleG" label="roleG" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8nMs8JhCEeuaNKo1zCSbPQ" name="roleH" label="roleH" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Ubq0JhCEeuaNKo1zCSbPQ" name="roleI" label="roleI" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__H3S4JhCEeuaNKo1zCSbPQ" name="roleJ" label="roleJ" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="___uvAJhCEeuaNKo1zCSbPQ" name="roleK" label="roleK" length="-1" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5QyCwJO4EeuSRbXcudBTAg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5QyCwZO4EeuSRbXcudBTAg" id="_yxENUJO4EeuSRbXcudBTAg" label="permissions">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5QyCwpO4EeuSRbXcudBTAg" label="codeRole" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5QyCw5O4EeuSRbXcudBTAg" label="codesTraitements" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__JZnUJhrEeu-UtIsWI2hLg" name="default" dataManager="_lvulUJO1EeuSRbXcudBTAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__JZnUZhrEeu-UtIsWI2hLg" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_6X_GwJhrEeu-UtIsWI2hLg" label="matrice2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__JZnUphrEeu-UtIsWI2hLg" name="codeTraitement" label="codeTraitement" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__JZnU5hrEeu-UtIsWI2hLg" name="roles" label="roles" length="90" talendType="id_List">
+        <initialValue xmi:id="_LQxBwJhsEeu-UtIsWI2hLg" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="habilitations_roles" prompt="habilitations_roles?" promptNeeded="false" type="id_Object" value=""/>
+  <contextParameter comment="" name="cpt_erreur_codeTraitements" prompt="cpt_erreur_codeTraitements?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter comment="" name="cpt_erreur_codeRole" prompt="cpt_erreur_codeRole?" promptNeeded="false" type="id_Integer" value="0"/>
+</talendfile:ContextType>
